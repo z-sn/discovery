@@ -1,8 +1,11 @@
 [default.probe]
+usb_vid = "0d28"
+usb_pid = "0204"
+#serial = "99063602000528209e18575bc977f29d000000006e052820"
 protocol = "Swd"
 
 [default.general]
-# chip = "nrf52833_xxAA" # uncomment this line for micro:bit V2
+chip = "nrf52833_xxAA" # uncomment this line for micro:bit V2
 # chip = "nrf51822_xxAA" # uncomment this line for micro:bit V1
 
 [default.rtt]
