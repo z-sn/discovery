@@ -1,0 +1,5 @@
+# Build
+cargo build --features v2 --target thumbv7em-none-eabihf
+
+# Flash
+cargo embed --features v2 --target thumbv7em-none-eabihf
